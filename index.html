@@ -1,13 +1,72 @@
 <!DOCTYPE html>
 <html lang="th">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
-</head>
-<body>
-    <h1>My Profile</h1>
-    <p>Hello, I am</p>
-    <h2>Rungrawi Kaeongam</h2>
-</body>
+    <title>My Profile</title>
+  </head>
+  <body>
+
+    <header>
+      <h1>My Profile</h1>
+      <nav>
+        <a href="#about">About Me</a> |
+        <a href="#skills">Skill</a> |
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <figure>
+          <img src="https://via.placeholder.com/200"
+            alt="Profile placeholder">
+          <figcaption>just placeholder</figcaption>
+        </figure>
+
+        <p>
+          Hello, I am <strong>Rungrawi Kaeongam</strong><br>
+        </p>
+
+        <article>
+          <h3>What I've Learned</h3>
+          <ul>
+            <li>HTML Structured</li>
+            <li>Semantic HTML</li>
+            <li>Links and Pictures</li>
+            <li>Form and Input</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="skills">
+        <h2>Skill I've get from the course</h2>
+        <ol>
+          <li>How to write HTML</li>
+          <li>SEO and Search Engineer</li>
+          <li>Makes an easy form</li>
+        </ol>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name"><br><br>
+
+          <label for="message">Messages:</label><br>
+          <textarea id="message" name="message"></textarea><br><br>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>&#169;Rungrawi Keaongam</p>
+    </footer>
+
+  </body>
 </html>
